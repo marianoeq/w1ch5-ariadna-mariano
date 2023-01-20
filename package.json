@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass sass:css --watch"
+    "sass": "sass sass:css --watch",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "husky": "^8.0.0"
   }
 }
