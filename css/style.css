@@ -11,4 +11,43 @@ body {
   background-size: cover;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav__img {
+  padding: 20px;
+}
+
+.header__title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.header__p {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.13rem;
+}
+
+.main__form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 10px;
+  border: 0.5px solid grey;
+  border-radius: 2%;
+}
+.main__form .main__form__label {
+  color: grey;
+  padding: 16px;
+}
+.main__form .main__form__input {
+  border: 0;
+  border-bottom: 1px solid;
+  width: 90%;
+  margin: 10px auto;
+}
+
 /*# sourceMappingURL=style.css.map */

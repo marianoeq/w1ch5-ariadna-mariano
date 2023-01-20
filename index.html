@@ -6,29 +6,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap" rel="stylesheet">
   <title>Travelian</title>
 </head>
 
 <body>
   <header>
-    <nav>
-      <img src="./images/travelian.svg" alt="logo pagina">
-      <img src="./images/hamburguer.svg" alt="hamburguer-icon">
+    <nav class="nav">
+      <img class="nav__img" src="./images/travelian.svg" alt="logo pagina">
+      <img class="nav__img" src="./images/hamburguer.svg" alt="hamburguer-icon">
     </nav>
-    <h1>Start your unforgettable journey with us</h1>
-    <p>The best travel for your journey with us</p>
+    <h1 class="header__title">Start your unforgettable journey with us</h1>
+    <p class="header__p">The best travel for your journey with us</p>
   </header>
-  <main>
-    <form>
-      <label for="#">DESTINATION</label>
-      <input type="text" placeholder="Dubai">
-      <label for="#">PERSON</label>
-      <input type="text" placeholder="2">
-      <label for="#">CHECK IN</label>
-      <input type="text" placeholder="Sun, 17th Sep 2020">
-      <label for="#">CHECK OUT</label>
-      <input type="text" placeholder="Tue, 17th Oct 2020">
-      <button>Book Now -> </button>
+  <main class="main">
+    <form class="main__form">
+      <label class="main__form__label" for="#">DESTINATION</label>
+      <input class="main__form__input" type="text" placeholder="Dubai">
+      <label class="main__form__label" for="#">PERSON</label>
+      <input class="main__form__input" type="text" placeholder="2">
+      <label class="main__form__label" for="#">CHECK IN</label>
+      <input class="main__form__input" type="text" placeholder="Sun, 17th Sep 2020">
+      <label class="main__form__label" for="#">CHECK OUT</label>
+      <input class="main__form__input" type="text" placeholder="Tue, 17th Oct 2020">
+      <button class="main__form_btn">Book Now -> </button>
     </form>
   </main>
 </body>
