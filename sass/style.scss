@@ -1,5 +1,5 @@
-$playFair-font: 'Playfair Display', serif;
-$rubik-font: 'Rubik', sans-serif;
+$playFair-font: "Playfair Display", serif;
+$rubik-font: "Rubik", sans-serif;
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,6 @@ html,
 body {
   width: 100%;
   margin: 0;
-
 }
 
 footer {
@@ -59,18 +58,17 @@ footer {
   &__icons {
     padding-bottom: 15px;
 
-  background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
-
 .nav {
   display: flex;
   justify-content: space-between;
 
   .nav__img {
     padding: 20px;
-
   }
 }
 
@@ -105,6 +103,5 @@ footer {
     width: 90%;
 
     margin: 10px auto;
-
   }
 }
