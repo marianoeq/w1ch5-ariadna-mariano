@@ -18,11 +18,14 @@ footer {
 }
 footer li {
   list-style: none;
-  font-style: normal;
+  margin: 8px 0;
+  font-weight: normal;
+  font-size: 1.1rem;
 }
 
 .footer1 {
   font-size: 2.5rem;
+  padding-top: 50px;
 }
 .footer1__copyright {
   font-size: 0.8rem;
@@ -31,33 +34,39 @@ footer li {
 }
 
 .footer2__title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  font-weight: 500;
 }
 .footer2__list {
   padding-inline-start: 0;
 }
 
 .footer3__title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  font-weight: 500;
 }
 .footer3__list {
   padding-inline-start: 0;
 }
 
 .footer4__title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  font-weight: 500;
 }
 .footer4__list {
   padding-inline-start: 0;
 }
 
 .footer5__title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .footer5__icons {
-  background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 50px;
 }
 
 .nav {

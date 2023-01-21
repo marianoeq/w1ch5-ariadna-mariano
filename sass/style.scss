@@ -18,14 +18,18 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
   li {
     list-style: none;
-    font-style: normal;
+    margin: 8px 0;
+    font-weight: normal;
+    font-size: 1.1rem;
   }
 }
 
 .footer1 {
   font-size: 2.5rem;
+  padding-top: 50px;
 
   &__copyright {
     font-size: 0.8rem;
@@ -36,7 +40,9 @@ footer {
 
 .footer2 {
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: 500;
   }
   &__list {
     padding-inline-start: 0;
@@ -45,7 +51,9 @@ footer {
 
 .footer3 {
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: 500;
   }
   &__list {
     padding-inline-start: 0;
@@ -54,7 +62,9 @@ footer {
 
 .footer4 {
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: 500;
   }
   &__list {
     padding-inline-start: 0;
@@ -63,12 +73,12 @@ footer {
 
 .footer5 {
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   &__icons {
-    background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 50px;
   }
 }
 .nav {
