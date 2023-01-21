@@ -11,6 +11,33 @@ body {
   background-position: 60%;
 }
 
+.section-planners {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 16px;
+}
+.section-planners__title {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  border-bottom: 3px solid rgb(255, 119, 87);
+}
+.section-planners__explain {
+  color: rgb(118, 126, 134);
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1 rem;
+}
+.section-planners__view {
+  color: white;
+  background-color: rgb(255, 119, 87);
+  width: 186px;
+  height: 61px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  border: transparent;
+}
+
 .section-experiences {
   background-color: white;
   display: flex;
