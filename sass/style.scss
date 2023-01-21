@@ -1,4 +1,4 @@
-$playFair-font: "Playfair Display", serif;
+$playFair-font: "Playfair Display";
 $rubik-font: "Rubik", sans-serif;
 
 * {
@@ -12,7 +12,7 @@ body {
   background-image: url(../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg);
   background-repeat: no-repeat;
   background-position-x: 3%;
-  background-position-y: -241%;
+  background-position-y: -328%;
   background-size: 1254px 1679px;
 }
 
@@ -111,8 +111,9 @@ footer {
 
 .header__title {
   font-family: $playFair-font;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   color: white;
+  font-style: normal;
 }
 
 .header__p {
