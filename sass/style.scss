@@ -1,4 +1,4 @@
-$playFair-font: "Playfair Display", serif;
+$playFair-font: "Playfair Display";
 $rubik-font: "Rubik", sans-serif;
 
 * {
@@ -9,10 +9,13 @@ html,
 body {
   width: 100%;
   margin: 0;
-  background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
+  background-image: url(../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg);
   background-repeat: no-repeat;
-  background-position: 60%;
+  background-position-x: 3%;
+  background-position-y: -328%;
+  background-size: 1254px 1679px;
 }
+
 
 .section-planners {
   background-color: white;
@@ -154,119 +157,5 @@ body {
     margin-top: 20px;
     border: transparent;
     font-size: 1.25rem;
-  }
-}
-
-footer {
-  background-color: rgba(23, 36, 50, 1);
-  color: white;
-  font-family: Rubik, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 16px;
-  li {
-    list-style: none;
-    margin: 8px 0;
-    font-weight: normal;
-    font-size: 1.1rem;
-  }
-}
-
-.footer1 {
-  font-size: 2.5rem;
-  padding-top: 50px;
-
-  &__copyright {
-    font-size: 0.8rem;
-    text-decoration: none;
-    font-style: normal;
-  }
-}
-
-.footer2 {
-  &__title {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    font-weight: 500;
-  }
-  &__list {
-    padding-inline-start: 0;
-  }
-}
-
-.footer3 {
-  &__title {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    font-weight: 500;
-  }
-  &__list {
-    padding-inline-start: 0;
-  }
-}
-
-.footer4 {
-  &__title {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    font-weight: 500;
-  }
-  &__list {
-    padding-inline-start: 0;
-  }
-}
-
-.footer5 {
-  &__title {
-    font-size: 1.5rem;
-  }
-
-  &__icons {
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 50px;
-  }
-}
-.nav {
-  display: flex;
-  justify-content: space-between;
-
-  .nav__img {
-    padding: 20px;
-  }
-}
-
-.header__title {
-  font-family: $playFair-font;
-  font-size: 2.5rem;
-  color: white;
-}
-
-.header__p {
-  color: white;
-  font-family: $rubik-font;
-  font-size: 1.13rem;
-}
-
-.main__form {
-  display: flex;
-  flex-direction: column;
-  background: white;
-  margin: 10px;
-  border: 0.5px solid grey;
-  border-radius: 2%;
-
-  .main__form__label {
-    color: grey;
-    padding: 16px;
-  }
-
-  .main__form__input {
-    border: 0;
-    border-bottom: 1px solid;
-    width: 90%;
-
-    margin: 10px auto;
   }
 }

@@ -6,11 +6,7 @@ html,
 body {
   width: 100%;
   margin: 0;
-  background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: 60%;
 }
-
 .section-planners {
   background-color: white;
   display: flex;
@@ -152,6 +148,7 @@ body {
   margin-top: 20px;
   border: transparent;
   font-size: 1.25rem;
+
 }
 
 footer {
@@ -216,18 +213,28 @@ footer li {
   padding-bottom: 50px;
 }
 
-.nav {
+
+
+.header {
+  margin: 0 16px;
+}
+.header .header__div {
   display: flex;
   justify-content: space-between;
 }
-.nav .nav__img {
+.header .header__div .header__div__img {
   padding: 20px;
+}
+.header .header__div2 {
+  margin-top: 90px;
 }
 
 .header__title {
-  font-family: "Playfair Display", serif;
-  font-size: 2.5rem;
+  font-family: "Playfair Display";
+  font-size: 2.2rem;
   color: white;
+  font-style: normal;
+
 }
 
 .header__p {
@@ -254,5 +261,6 @@ footer li {
   width: 90%;
   margin: 10px auto;
 }
+
 
 /*# sourceMappingURL=style.css.map */
