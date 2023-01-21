@@ -9,15 +9,24 @@ html,
 body {
   width: 100%;
   margin: 0;
+<<<<<<< HEAD
+=======
+  background-image: url('../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: 60%;
+>>>>>>> main
 }
 
 footer {
   background-color: rgba(23, 36, 50, 1);
   color: white;
   font-family: Rubik, sans-serif;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+=======
+>>>>>>> main
 
   li {
     list-style: none;
@@ -28,8 +37,14 @@ footer {
 }
 
 .footer1 {
+<<<<<<< HEAD
   font-size: 2.5rem;
   padding-top: 50px;
+=======
+  &__title {
+    font-size: 2.5rem;
+  }
+>>>>>>> main
 
   &__copyright {
     font-size: 0.8rem;
@@ -75,10 +90,19 @@ footer {
   &__title {
     font-size: 1.5rem;
   }
+
   &__icons {
+<<<<<<< HEAD
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
+=======
+    padding-bottom: 15px;
+
+    background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> main
   }
 }
 .nav {
