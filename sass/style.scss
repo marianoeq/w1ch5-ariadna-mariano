@@ -9,10 +9,13 @@ html,
 body {
   width: 100%;
   margin: 0;
-  background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
+  background-image: url(../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg);
   background-repeat: no-repeat;
-  background-position: 60%;
+  background-position-x: 3%;
+  background-position-y: -241%;
+  background-size: 1254px 1679px;
 }
+
 
 footer {
   background-color: rgba(23, 36, 50, 1);
@@ -47,6 +50,7 @@ footer {
     padding-top: 20px;
     font-weight: 500;
   }
+
   &__list {
     padding-inline-start: 0;
   }
@@ -58,6 +62,7 @@ footer {
     padding-top: 20px;
     font-weight: 500;
   }
+
   &__list {
     padding-inline-start: 0;
   }
@@ -69,6 +74,7 @@ footer {
     padding-top: 20px;
     font-weight: 500;
   }
+
   &__list {
     padding-inline-start: 0;
   }
@@ -85,12 +91,21 @@ footer {
     padding-bottom: 50px;
   }
 }
-.nav {
-  display: flex;
-  justify-content: space-between;
 
-  .nav__img {
-    padding: 20px;
+.header {
+  margin: 0 16px;
+
+  .header__div {
+    display: flex;
+    justify-content: space-between;
+
+    .header__div__img {
+      padding: 20px;
+    }
+  }
+
+  .header__div2 {
+    margin-top: 90px;
   }
 }
 
@@ -123,7 +138,24 @@ footer {
     border: 0;
     border-bottom: 1px solid;
     width: 90%;
-
     margin: 10px auto;
+  }
+
+  .main__form__input:last-of-type {
+
+    margin-bottom: 60px;
+  }
+
+  .main__form_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 12px;
+    background: #FF7757;
+    border-radius: 0px 0px 16px 16px;
+    color: white;
+    font-family: $playFair-font;
+    font-size: 2.25rem;
   }
 }
