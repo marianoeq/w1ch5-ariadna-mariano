@@ -1,3 +1,7 @@
+.section {
+  border: 1px solid red;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -213,57 +217,65 @@ body {
   border: transparent;
   font-size: 1.25rem;
 }
-.main__form footer {
-  background-color: rgb(23, 36, 50);
+
+footer {
+  background-color: rgb(31, 58, 86);
   color: white;
   font-family: Rubik, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 0 16px;
 }
-.main__form footer li {
+
+li {
   list-style: none;
   margin: 8px 0;
   font-weight: normal;
   font-size: 1.1rem;
 }
-.main__form .footer1 {
+
+.footer1 {
   font-size: 2.5rem;
   padding-top: 50px;
 }
-.main__form .footer1__copyright {
+.footer1__copyright {
   font-size: 0.8rem;
   text-decoration: none;
   font-style: normal;
 }
-.main__form .footer2__title {
+
+.footer2__title {
   font-size: 1.5rem;
   padding-top: 20px;
   font-weight: 500;
 }
-.main__form .footer2__list {
+.footer2__list {
   padding-inline-start: 0;
 }
-.main__form .footer3__title {
+
+.footer3__title {
   font-size: 1.5rem;
   padding-top: 20px;
   font-weight: 500;
 }
-.main__form .footer3__list {
+.footer3__list {
   padding-inline-start: 0;
 }
-.main__form .footer4__title {
+
+.footer4__title {
   font-size: 1.5rem;
   padding-top: 20px;
   font-weight: 500;
 }
-.main__form .footer4__list {
+.footer4__list {
   padding-inline-start: 0;
 }
-.main__form .footer5__title {
+
+.footer5__title {
   font-size: 1.5rem;
 }
-.main__form .footer5__icons {
+.footer5__icons {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
