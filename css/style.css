@@ -6,6 +6,45 @@ html,
 body {
   width: 100%;
   margin: 0;
+}
+
+footer {
+  background-color: rgb(23, 36, 50);
+  color: white;
+  font-family: Rubik, sans-serif;
+}
+footer li {
+  list-style: none;
+  font-style: normal;
+  display: block;
+}
+
+.footer1__title {
+  font-size: 2.5rem;
+}
+.footer1__copyright {
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer2__title {
+  font-size: 1.3rem;
+}
+
+.footer3__title {
+  font-size: 1.3rem;
+}
+
+.footer4__title {
+  font-size: 1.3rem;
+}
+
+.footer5__title {
+  font-size: 1.3rem;
+}
+.footer5__icons {
+  padding-bottom: 15px;
   background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,45 +87,6 @@ body {
   border-bottom: 1px solid;
   width: 90%;
   margin: 10px auto;
-}
-
-footer {
-  background-color: rgb(23, 36, 50);
-  color: white;
-  font-family: Rubik, sans-serif;
-}
-footer li {
-  list-style: none;
-  font-style: normal;
-  display: block;
-}
-
-.footer1__title {
-  font-size: 2.5rem;
-}
-.footer1__copyright {
-  font-size: 0.8rem;
-  text-decoration: none;
-  font-style: normal;
-}
-
-.footer2__title {
-  font-size: 1.3rem;
-}
-
-.footer3__title {
-  font-size: 1.3rem;
-}
-
-.footer4__title {
-  font-size: 1.3rem;
-}
-
-.footer5__title {
-  font-size: 1.3rem;
-}
-.footer5__icons {
-  padding-bottom: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
