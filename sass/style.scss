@@ -1,5 +1,5 @@
-$playFair-font: 'Playfair Display', serif;
-$rubik-font: 'Rubik', sans-serif;
+$playFair-font: "Playfair Display", serif;
+$rubik-font: "Rubik", sans-serif;
 
 * {
   box-sizing: border-box;
@@ -9,27 +9,42 @@ html,
 body {
   width: 100%;
   margin: 0;
+<<<<<<< HEAD
+=======
   background-image: url('../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: 60%;
+>>>>>>> main
 }
 
 footer {
   background-color: rgba(23, 36, 50, 1);
   color: white;
   font-family: Rubik, sans-serif;
+<<<<<<< HEAD
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+=======
+>>>>>>> main
 
   li {
     list-style: none;
-    font-style: normal;
-    display: block;
+    margin: 8px 0;
+    font-weight: normal;
+    font-size: 1.1rem;
   }
 }
 
 .footer1 {
+<<<<<<< HEAD
+  font-size: 2.5rem;
+  padding-top: 50px;
+=======
   &__title {
     font-size: 2.5rem;
   }
+>>>>>>> main
 
   &__copyright {
     font-size: 0.8rem;
@@ -40,43 +55,62 @@ footer {
 
 .footer2 {
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: 500;
+  }
+  &__list {
+    padding-inline-start: 0;
   }
 }
 
 .footer3 {
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: 500;
+  }
+  &__list {
+    padding-inline-start: 0;
   }
 }
 
 .footer4 {
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    font-weight: 500;
+  }
+  &__list {
+    padding-inline-start: 0;
   }
 }
 
 .footer5 {
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   &__icons {
+<<<<<<< HEAD
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+=======
     padding-bottom: 15px;
 
     background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+>>>>>>> main
   }
 }
-
 .nav {
   display: flex;
   justify-content: space-between;
 
   .nav__img {
     padding: 20px;
-
   }
 }
 
@@ -111,6 +145,5 @@ footer {
     width: 90%;
 
     margin: 10px auto;
-
   }
 }

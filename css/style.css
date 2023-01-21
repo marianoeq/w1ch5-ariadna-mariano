@@ -1,95 +1,17 @@
-* {
-  box-sizing: border-box;
-}
+/* Error: expected "{".
+ *    ,
+ * 14 |   background-image: url('../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg');
+ *    |                                                                          ^
+ *    '
+ *   sass/style.scss 14:74  root stylesheet */
 
-html,
-body {
-  width: 100%;
-  margin: 0;
-  background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-position: 60%;
-}
-
-footer {
-  background-color: rgb(23, 36, 50);
-  color: white;
-  font-family: Rubik, sans-serif;
-}
-footer li {
-  list-style: none;
-  font-style: normal;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected \"{\".\a    \2577 \a 14 \2502    background-image: url('../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg');\a    \2502                                                                           ^\a    \2575 \a   sass/style.scss 14:74  root stylesheet";
 }
-
-.footer1__title {
-  font-size: 2.5rem;
-}
-.footer1__copyright {
-  font-size: 0.8rem;
-  text-decoration: none;
-  font-style: normal;
-}
-
-.footer2__title {
-  font-size: 1.3rem;
-}
-
-.footer3__title {
-  font-size: 1.3rem;
-}
-
-.footer4__title {
-  font-size: 1.3rem;
-}
-
-.footer5__title {
-  font-size: 1.3rem;
-}
-.footer5__icons {
-  padding-bottom: 15px;
-  background-image: url("../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-.nav .nav__img {
-  padding: 20px;
-}
-
-.header__title {
-  font-family: "Playfair Display", serif;
-  font-size: 2.5rem;
-  color: white;
-}
-
-.header__p {
-  color: white;
-  font-family: "Rubik", sans-serif;
-  font-size: 1.13rem;
-}
-
-.main__form {
-  display: flex;
-  flex-direction: column;
-  background: white;
-  margin: 10px;
-  border: 0.5px solid grey;
-  border-radius: 2%;
-}
-.main__form .main__form__label {
-  color: grey;
-  padding: 16px;
-}
-.main__form .main__form__input {
-  border: 0;
-  border-bottom: 1px solid;
-  width: 90%;
-  margin: 10px auto;
-}
-
-/*# sourceMappingURL=style.css.map */
