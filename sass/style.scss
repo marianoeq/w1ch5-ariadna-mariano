@@ -14,6 +14,32 @@ body {
   background-position: 60%;
 }
 
+.section-newsletter {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 40px;
+  &__title1 {
+    font-family: $playFair-font;
+    font-size: 2.5rem;
+    color: rgb(118, 126, 134);
+
+    padding-top: 50px;
+  }
+  &__title2 {
+    font-family: $playFair-font;
+    font-size: 2.5rem;
+    color: rgb(118, 126, 134);
+    padding-bottom: 50px;
+  }
+  &__email {
+    color: rgb(118, 126, 134);
+    font-size: 1.25rem;
+  }
+}
+
 footer {
   background-color: rgba(23, 36, 50, 1);
   color: white;
