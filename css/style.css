@@ -19,8 +19,9 @@ body {
   padding-left: 16px;
 }
 .section-experiences--contained {
-  background-color: rgb(255, 119, 87);
+  background-color: #f5f6f7;
   border-radius: 12px;
+  padding: 30px 20px 20px;
 }
 .section-experiences__title {
   color: black;
@@ -39,7 +40,26 @@ body {
   border-radius: 100px;
   padding-top: 20px;
   align-self: flex-start;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
 }
+.section-experiences__text {
+  color: rgb(118, 126, 134);
+  font-size: 1.1rem;
+  font-family: "Rubik", sans-serif;
+}
+.section-experiences__name {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: rgb(118, 126, 134);
+}
+.section-experiences__job {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  color: rgb(118, 126, 134);
+}
+
 .section-newsletter {
   background-color: white;
   display: flex;
