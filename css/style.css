@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 40px;
+  padding: 40px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
 }
 .section-newsletter__title1 {
@@ -36,6 +36,7 @@ body {
   color: rgb(118, 126, 134);
   font-size: 1.25rem;
   padding-bottom: 20px;
+  font-family: "Rubik", sans-serif;
 }
 .section-newsletter__text {
   color: rgb(255, 119, 87);
@@ -43,6 +44,7 @@ body {
   border-radius: 12px;
   width: 248px;
   height: 72px;
+  border: transparent;
 }
 .section-newsletter__text::placeholder {
   color: rgb(255, 119, 87);
@@ -56,6 +58,9 @@ body {
   height: 73px;
   width: 248px;
   border-radius: 12px;
+  margin-top: 20px;
+  border: transparent;
+  font-size: 1.25rem;
 }
 
 footer {
