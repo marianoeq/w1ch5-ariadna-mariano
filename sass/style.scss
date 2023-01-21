@@ -15,17 +15,18 @@ footer {
   background-color: rgba(23, 36, 50, 1);
   color: white;
   font-family: Rubik, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   li {
     list-style: none;
     font-style: normal;
-    display: block;
   }
 }
 
 .footer1 {
-  &__title {
-    font-size: 2.5rem;
-  }
+  font-size: 2.5rem;
+
   &__copyright {
     font-size: 0.8rem;
     text-decoration: none;
@@ -37,17 +38,26 @@ footer {
   &__title {
     font-size: 1.3rem;
   }
+  &__list {
+    padding-inline-start: 0;
+  }
 }
 
 .footer3 {
   &__title {
     font-size: 1.3rem;
   }
+  &__list {
+    padding-inline-start: 0;
+  }
 }
 
 .footer4 {
   &__title {
     font-size: 1.3rem;
+  }
+  &__list {
+    padding-inline-start: 0;
   }
 }
 
