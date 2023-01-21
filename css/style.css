@@ -11,6 +11,35 @@ body {
   background-position: 60%;
 }
 
+.section-experiences {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 16px;
+}
+.section-experiences--contained {
+  background-color: rgb(255, 119, 87);
+  border-radius: 12px;
+}
+.section-experiences__title {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  border-bottom: 3px solid rgb(255, 119, 87);
+  margin-bottom: 10px;
+}
+.section-experiences__explain {
+  color: rgb(118, 126, 134);
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+.section-experiences__photo {
+  border-radius: 100px;
+  padding-top: 20px;
+  align-self: flex-start;
+}
 .section-newsletter {
   background-color: white;
   display: flex;
@@ -19,7 +48,7 @@ body {
   padding: 40px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
 }
-.section-newsletter .container-newsletter {
+.section-newsletter--contained {
   border: 0.75px solid rgb(118, 126, 134);
   border-radius: 12px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
