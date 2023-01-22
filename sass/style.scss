@@ -450,6 +450,7 @@ footer {
     width: 100vh;
   }
   .section-planners {
+    position: relative;
     &__rome {
       margin-top: 60px;
       &--divided {
@@ -492,6 +493,10 @@ footer {
     &__view {
       align-self: center;
       margin-bottom: 50px;
+      font-size: 1.1rem;
+      position: absolute;
+      z-index: 1;
+      margin-top: 830px;
     }
     &__title {
       font-size: 4rem;
@@ -499,12 +504,10 @@ footer {
     &__explain {
       font-size: 1.5rem;
     }
-    &__view {
-      font-size: 1.1rem;
-    }
   }
   .section-experiences {
     margin-bottom: 100px;
+    margin-top: 200px;
     &__experiences {
       display: flex;
       flex-direction: row;
@@ -542,14 +545,14 @@ footer {
   }
   .section-newsletter {
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
     border-bottom: transparent;
 
     .section-newsletter--contained {
       position: absolute;
       width: 90%;
-      margin-bottom: 500px;
       z-index: 1;
+      background-color: white;
       .section-newsletter--contained-desktop {
         display: flex;
         flex-direction: row;
@@ -560,8 +563,6 @@ footer {
         align-content: center;
         padding-left: 30px;
         padding-right: 30px;
-
-        background-color: white;
         border: transparent;
       }
       .section-newsletter__title1 {
@@ -597,7 +598,7 @@ footer {
       flex-direction: row;
       justify-content: space-between;
       align-self: stretch;
-      margin-top: 100px;
+      margin-top: 150px;
       gap: 5rem;
       padding: 20px 10px;
       .footer1 {

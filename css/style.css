@@ -486,6 +486,9 @@ footer li {
     gap: 5rem;
     width: 100vh;
   }
+  .section-planners {
+    position: relative;
+  }
   .section-planners__rome {
     margin-top: 60px;
   }
@@ -528,6 +531,10 @@ footer li {
   .section-planners__view {
     align-self: center;
     margin-bottom: 50px;
+    font-size: 1.1rem;
+    position: absolute;
+    z-index: 1;
+    margin-top: 830px;
   }
   .section-planners__title {
     font-size: 4rem;
@@ -535,11 +542,9 @@ footer li {
   .section-planners__explain {
     font-size: 1.5rem;
   }
-  .section-planners__view {
-    font-size: 1.1rem;
-  }
   .section-experiences {
     margin-bottom: 100px;
+    margin-top: 200px;
   }
   .section-experiences__experiences {
     display: flex;
@@ -576,14 +581,14 @@ footer li {
   }
   .section-newsletter {
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
     border-bottom: transparent;
   }
   .section-newsletter .section-newsletter--contained {
     position: absolute;
     width: 90%;
-    margin-bottom: 500px;
     z-index: 1;
+    background-color: white;
   }
   .section-newsletter .section-newsletter--contained .section-newsletter--contained-desktop {
     display: flex;
@@ -595,7 +600,6 @@ footer li {
     align-content: center;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: white;
     border: transparent;
   }
   .section-newsletter .section-newsletter--contained .section-newsletter__title1 {
@@ -628,7 +632,7 @@ footer li {
     flex-direction: row;
     justify-content: space-between;
     align-self: stretch;
-    margin-top: 100px;
+    margin-top: 150px;
     gap: 5rem;
     padding: 20px 10px;
   }
