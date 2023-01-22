@@ -729,12 +729,67 @@ footer {
   }
 
   .section-planners {
+    position: relative;
+
     &__rome {
-      margin-top: 200px;
+      margin-top: 60px;
+
+      &--divided {
+        display: none;
+      }
+
+      &__rometour {
+        display: none;
+      }
+
+      &--dividedrating {
+        display: none;
+      }
+    }
+
+    &__paris {
+      margin-top: 20px;
+    }
+
+    &__barcelona {
+      margin-top: 60px;
+
+      &--divided {
+        display: none;
+      }
+
+      &__barcelonatour {
+        display: none;
+      }
+
+      &--dividedrating {
+        display: none;
+      }
+    }
+
+    &__budapest {
+      margin-top: 60px;
+
+      &--divided {
+        display: none;
+      }
+
+      &__budapesttour {
+        display: none;
+      }
+
+      &--dividedrating {
+        display: none;
+      }
     }
 
     &__view {
       align-self: center;
+      margin-bottom: 50px;
+      font-size: 1.1rem;
+      position: absolute;
+      z-index: 1;
+      margin-top: 830px;
     }
 
     &__title {
@@ -751,12 +806,15 @@ footer {
   }
 
   .section-experiences {
+    margin-bottom: 100px;
+    margin-top: 200px;
+
     &__experiences {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       gap: 3rem;
-      margin-top: 20px;
+      margin-top: 50px;
     }
 
     &__hidden-john {
@@ -791,15 +849,68 @@ footer {
     }
   }
 
-  .section-newsletter--contained {
-    width: 90%;
-    margin-top: 50px;
+  .section-newsletter {
+    position: relative;
+    margin-bottom: 90px;
+    border-bottom: transparent;
 
-    .section-newsletter--contained-desktop {
+    .section-newsletter--contained {
+      position: absolute;
+      width: 90%;
+      z-index: 1;
+      background-color: white;
+
+      .section-newsletter--contained-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: stretch;
+        gap: 5rem;
+        height: 150px;
+        align-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: transparent;
+      }
+
+      .section-newsletter__title1 {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 4rem;
+      }
+
+      .section-newsletter__title2 {
+        display: inline-block;
+        font-size: 4rem;
+      }
+
+      .section-newsletter__email {
+        display: block;
+        margin-top: 20px;
+        font-style: 1.1rem;
+      }
+
+      .section-newsletter__text {
+        margin-top: 0;
+        font-size: 1.1rem;
+      }
+
+      .section-newsletter__subscribe {
+        margin-top: 55px;
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  footer {
+    height: 500px;
+
+    .footers {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-self: stretch;
+      margin-top: 150px;
       gap: 5rem;
       height: 150px;
       align-content: center;
