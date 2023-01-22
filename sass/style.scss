@@ -245,6 +245,9 @@ body {
   &__hidden-john {
     display: none;
   }
+  &__hidden-tamara {
+    display: none;
+  }
   &__title {
     color: black;
     font-family: $playFair-font;
@@ -455,10 +458,17 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      gap: 5rem;
+      gap: 3rem;
       margin-top: 20px;
     }
     &__hidden-john {
+      display: inline-block;
+      background-color: #f5f6f7;
+      border-radius: 12px;
+      padding: 30px 20px;
+      gap: 20px;
+    }
+    &__hidden-tamara {
       display: inline-block;
       background-color: #f5f6f7;
       border-radius: 12px;
@@ -474,11 +484,13 @@ footer {
     }
     &__arrows {
       align-self: flex-end;
+      margin-top: 100px;
     }
   }
 
   .section-newsletter--contained {
     width: 90%;
+    margin-top: 50px;
     .section-newsletter--contained-desktop {
       display: flex;
       flex-direction: row;
@@ -516,7 +528,7 @@ footer {
     justify-content: space-between;
     align-self: stretch;
     gap: 5rem;
-
+    padding: 20px 10px;
     .footer1 {
       padding-top: 30px;
     }
