@@ -99,10 +99,6 @@ body {
     flex-direction: row;
   }
   .section-newsletter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
     &--contained {
       display: flex;
       flex-direction: row;
@@ -110,11 +106,14 @@ body {
       align-items: stretch;
     }
   }
+
   .footers {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-self: stretch;
     gap: 5rem;
+
     .footer1 {
       padding-top: 30px;
     }

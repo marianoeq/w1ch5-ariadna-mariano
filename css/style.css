@@ -169,12 +169,6 @@ body {
     display: flex;
     flex-direction: row;
   }
-  .section-newsletter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-  }
   .section-newsletter--contained {
     display: flex;
     flex-direction: row;
@@ -185,6 +179,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-self: stretch;
     gap: 5rem;
   }
   .footers .footer1 {
