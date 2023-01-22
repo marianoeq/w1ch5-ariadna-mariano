@@ -2,6 +2,7 @@
 
 $playFair-font: "Playfair Display", serif;
 $rubik-font: "Rubik", sans-serif;
+$Mulish-font: "Mulish", sans-serif;
 
 * {
   box-sizing: border-box;
@@ -21,13 +22,17 @@ body {
 .header {
   margin: 0 16px;
 
-  .header__div {
+  .header__div__img__container {
     display: flex;
     justify-content: space-between;
 
     .header__div__img {
       padding: 20px;
     }
+  }
+
+  .header-desktop__div {
+    display: none;
   }
 
   .header__div2 {
@@ -131,6 +136,7 @@ body {
       padding-right: 16px;
       font-weight: 400;
     }
+
     &__rometour {
       font-family: $playFair-font;
       font-size: 1.75rem;
@@ -138,6 +144,7 @@ body {
       margin-top: 10px;
       margin-bottom: 10px;
     }
+
     &--dividedrating {
       display: flex;
       justify-content: space-between;
@@ -146,6 +153,7 @@ body {
       padding-right: 16px;
     }
   }
+
   &__paris {
     margin-top: 60px;
 
@@ -158,6 +166,7 @@ body {
       padding-right: 16px;
       font-weight: 400;
     }
+
     &__paristour {
       font-family: $playFair-font;
       font-size: 1.75rem;
@@ -165,6 +174,7 @@ body {
       margin-top: 10px;
       margin-bottom: 10px;
     }
+
     &--dividedrating {
       display: flex;
       justify-content: space-between;
@@ -173,6 +183,7 @@ body {
       padding-right: 16px;
     }
   }
+
   &__barcelona {
     margin-top: 60px;
 
@@ -185,6 +196,7 @@ body {
       padding-right: 16px;
       font-weight: 400;
     }
+
     &__barcelonatour {
       font-family: $playFair-font;
       font-size: 1.75rem;
@@ -192,6 +204,7 @@ body {
       margin-top: 10px;
       margin-bottom: 10px;
     }
+
     &--dividedrating {
       display: flex;
       justify-content: space-between;
@@ -200,9 +213,11 @@ body {
       padding-right: 16px;
     }
   }
+
   &__budapest {
     margin-top: 60px;
     margin-bottom: 100px;
+
     &--divided {
       display: flex;
       justify-content: space-between;
@@ -212,6 +227,7 @@ body {
       padding-right: 16px;
       font-weight: 400;
     }
+
     &__budapesttour {
       font-family: $playFair-font;
       font-size: 1.75rem;
@@ -219,6 +235,7 @@ body {
       margin-top: 10px;
       margin-bottom: 10px;
     }
+
     &--dividedrating {
       display: flex;
       justify-content: space-between;
@@ -433,5 +450,222 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
+  }
+}
+
+
+@media (min-width:400px) {
+
+  html,
+  body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 -872px;
+    width: 1440px;
+  }
+
+  .header {
+
+    .header__div__img__container {
+      display: none;
+    }
+
+    .header-desktop__div {
+      display: grid;
+      grid-template-columns: 25% 45% 30%;
+      padding: 32px;
+      align-items: center;
+
+      .header-desktop__nav__ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        color: white;
+        font-family: $rubik-font;
+        font-size: .8rem;
+        padding-right: 2em;
+
+      }
+
+      .header-desktop__div__btn {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 80px;
+
+        button {
+          width: 70px;
+          font-family: $rubik-font;
+          font-size: .8rem;
+          color: white;
+          background: transparent;
+          border: none;
+
+        }
+
+        button:last-child {
+          background: #FF7757;
+          padding: 20px 32px;
+          border-radius: 12px;
+          width: 110px;
+        }
+      }
+    }
+
+  }
+
+  .main__form {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 400px;
+    left: 6px;
+    width: 1205px;
+  }
+
+  .section {
+    padding: 0 32px;
+    top: 550px;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+
+    .section__title {
+      font-family: $playFair-font ;
+      font-size: 2.25rem;
+      line-height: 53px;
+      color: #172432;
+
+    }
+
+    .section__div__line {
+      border-bottom: 2px solid #FF7757;
+      width: 231px;
+    }
+
+    .section__para {
+      font-family: $rubik-font;
+      font-size: 1rem;
+      line-height: 21px;
+      color: #767E86;
+      height: 80px;
+    }
+
+
+
+    .section-destination__div__img {
+      display: flex;
+      justify-content: space-between;
+
+
+      .section__img__berlin {
+        display: flex;
+        width: 497px;
+      }
+
+      .section__img__london {
+        display: flex;
+        width: 415px;
+      }
+
+      .section__img__venice {
+        display: flex;
+        width: 293px;
+      }
+
+    }
+
+    .section__container__arrows {
+      position: relative;
+      bottom: 132px;
+
+      .section__img__arrows {
+        float: right;
+        width: 172px;
+      }
+    }
+
+
+
+    .section__img__arrows1 {
+      display: none;
+    }
+
+    .section__img__arrows1 {
+      position: relative;
+      top: 80px;
+      left: 45px;
+    }
+
+
+
+    .section-offer__div {
+      width: 288px;
+      padding: 20px;
+      background: #FFF8F1;
+      border-radius: 0 0 26px 26px;
+
+      .section-offer__para {
+        font-family: $Mulish-font;
+        color: #767E86;
+        font-size: 1.7rem;
+        margin: 5px;
+      }
+
+      .section-offer__div__para {
+        font-family: $rubik-font;
+        font-size: .8rem;
+        color: #172432;
+        line-height: 20px;
+        height: 248px;
+      }
+
+      .section-offer__div__price {
+        font-family: $rubik-font;
+        font-size: .8rem;
+        color: #172432;
+      }
+
+      .section-offer__div__price strong {
+        font-family: $rubik-font;
+        color: #FF7757;
+        height: 38px;
+        font-size: 1.8rem;
+        padding-left: 5px;
+      }
+
+      .section-offer__btn {
+        padding: 16px 24px;
+        width: 127px;
+        height: 56px;
+        background: #FF7654;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        font-family: $rubik-font;
+        font-size: 1rem;
+      }
+    }
+
+    .section__article__para {
+      font-family: $rubik-font;
+      font-size: .8rem;
+      line-height: 38px;
+      color: #172432;
+
+    }
+
+    .section__article p:last-of-type {
+      font-family: $rubik-font;
+      font-size: 1.1rem;
+      color: #FF7757;
+      padding-top: 10px;
+
+    }
+
+    .section__article p:last-of-type img {
+
+      padding-left: 15px;
+    }
   }
 }

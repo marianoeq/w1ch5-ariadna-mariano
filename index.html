@@ -13,9 +13,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap" rel="stylesheet">
   <title>Travellian</title>
-  <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-  <link type="image/x-icon" rel="shortcut icon" href="/favicon.svg">
+  <link type="image/x-icon" rel="shortcut icon" href="./favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display&family=Rubik&display=swap"
@@ -24,9 +23,25 @@
 
 <body>
   <header class="header">
-    <div class="header__div">
+    <div class="header__div__img__container">
       <img class="header__div__img" src="./images/travelian.svg" alt="logo pagina">
       <img class="header__div__img" src="./images/hamburguer.svg" alt="hamburguer-icon">
+    </div>
+    <div class="header-desktop__div">
+      <img class="header__div__img" src="./images/travelian.svg" alt="logo pagina">
+      <nav class="header-desktop__nav">
+        <ul class="header-desktop__nav__ul">
+          <li>Home</li>
+          <li>Explore</li>
+          <li>Travel</li>
+          <li>Blog</li>
+          <li>Pricing</li>
+        </ul>
+      </nav>
+      <div class="header-desktop__div__btn">
+        <button>Login</button>
+        <button>Sign up</button>
+      </div>
     </div>
     <div class="header__div2">
       <h1 class="header__title">Start your unforgettable journey with us</h1>
@@ -51,9 +66,16 @@
       <div class="section__div__line"></div>
       <p class="section__para">Most popular destinations around the world, from historical places
         to natural wonders.</p>
-
-      <img src="./images/berlin.svg" alt="image of Berlin">
-      <img class="section__img__arrows" src="./images/back-forward.svg" alt="back-forward arrows">
+      <div class="section__container__arrows">
+        <img class="section__img__arrows" src="./images/back-forward.svg" alt="back-forward arrows">
+      </div>
+      </div>
+      <div class="section-destination__div__img">
+        <img class="section__img__berlin" src="./images/berlin.svg" alt="image of Berlin">
+        <img class="section__img__london" src="./images/london.svg" alt="image of London">
+        <img class="section__img__venice" src="./images/venice.svg" alt="image of Venice">
+      </div>
+      <img class="section__img__arrows1" src="./images/back-forward.svg" alt="back-forward arrows">
     </section>
     <section class="section">
       <h3 class="section__title">Special Offer</h3>
