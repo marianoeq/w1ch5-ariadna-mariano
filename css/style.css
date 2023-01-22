@@ -66,6 +66,21 @@
   font-family: "Rubik", sans-serif;
   font-size: 1rem;
 }
+.section .section__article__para {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.8rem;
+  line-height: 38px;
+  color: #172432;
+}
+.section .section__article p:last-of-type {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  color: #FF7757;
+  padding-top: 10px;
+}
+.section .section__article p:last-of-type img {
+  padding-left: 15px;
+}
 
 * {
   box-sizing: border-box;
@@ -78,7 +93,7 @@ body {
   background-image: url(../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg);
   background-repeat: no-repeat;
   background-position-x: 3%;
-  background-position-y: -12%;
+  background-position-y: -10%;
   background-size: 1254px 1679px;
 }
 
@@ -141,6 +156,7 @@ body {
   color: white;
   font-family: "Playfair Display", serif;
   font-size: 2.25rem;
+  border: none;
 }
 
 .section-planners {

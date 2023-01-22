@@ -79,4 +79,25 @@ $Mulish-font: "Mulish", sans-serif;
       font-size: 1rem;
     }
   }
+
+  .section__article__para {
+    font-family: $rubik-font;
+    font-size: .8rem;
+    line-height: 38px;
+    color: #172432;
+
+  }
+
+  .section__article p:last-of-type {
+    font-family: $rubik-font;
+    font-size: 1.1rem;
+    color: #FF7757;
+    padding-top: 10px;
+
+  }
+
+  .section__article p:last-of-type img {
+
+    padding-left: 15px;
+  }
 }
