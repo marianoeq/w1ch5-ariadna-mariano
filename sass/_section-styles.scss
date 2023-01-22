@@ -26,12 +26,31 @@ $Mulish-font: "Mulish", sans-serif;
     height: 80px;
   }
 
-  .section__img__london {
+  .section__container__arrows {
     display: none;
   }
 
-  .section__img__venice {
-    display: none;
+  .section__div__img__destination {
+    img:nth-child(n+2) {
+      display: none;
+    }
+  }
+
+  .section__div__img__offer__container {
+    div:nth-child(n+2) {
+      display: none;
+    }
+
+    .section__div__img__offer>div {
+      display: block;
+    }
+
+  }
+
+  .section-offer__div {
+    div:nth-child(n+2) {
+      display: none;
+    }
   }
 
   .section__img__arrows1 {

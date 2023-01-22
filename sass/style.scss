@@ -470,7 +470,7 @@ footer {
   body {
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0 -872px;
+    background-position: 0 -1072px;
     width: 1440px;
   }
 
@@ -535,10 +535,11 @@ footer {
 
   .section {
     padding: 0 32px;
-    top: 550px;
     display: flex;
     flex-direction: column;
     width: 1440px;
+    position: relative;
+    top: 13em;
 
     .section__title {
       font-family: $playFair-font ;
@@ -563,31 +564,23 @@ footer {
 
 
 
-    .section-destination__div__img {
+    .section__div__img__destination {
       display: flex;
-      justify-content: space-between;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 32px;
 
-
-      .section__img__berlin {
-        display: flex;
+      img:nth-child(-n+4) {
+        display: block;
         width: 497px;
+        height: 661px;
       }
-
-      .section__img__london {
-        display: flex;
-        width: 415px;
-      }
-
-      .section__img__venice {
-        display: flex;
-        width: 293px;
-      }
-
     }
 
     .section__container__arrows {
       position: relative;
       bottom: 132px;
+      display: block;
 
       .section__img__arrows {
         float: right;
@@ -595,16 +588,28 @@ footer {
       }
     }
 
+    .section__div__img__offer__container {
+      display: flex;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 32px;
+      width: 1376px;
+      height: 629px;
 
+      div:nth-child(-n+4) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 24px;
+        gap: 0px 24px;
+        width: 437.33px;
+        height: 429px;
+      }
 
-    .section__img__arrows1 {
-      display: none;
     }
 
     .section__img__arrows1 {
-      position: relative;
-      top: 80px;
-      left: 45px;
+      display: none;
     }
 
 
@@ -615,68 +620,105 @@ footer {
       background: #FFF8F1;
       border-radius: 0 0 26px 26px;
 
-      .section-offer__para {
-        font-family: $Mulish-font;
-        color: #767E86;
-        font-size: 1.7rem;
-        margin: 5px;
+      div:nth-child(-n+4) {
+        width: 437px;
+        height: 343PX;
+        background: #FFF8F1;
+        border-radius: 0px 0px 26px 26px;
+        padding: 40px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .section-offer__para {
+          font-family: $Mulish-font;
+          color: #767E86;
+          font-size: 1.7rem;
+          margin: 5px;
+        }
+
+        .section-offer__div__para {
+          font-family: $rubik-font;
+          font-size: .8rem;
+          color: #172432;
+          line-height: 20px;
+          height: 248px;
+        }
+
+        .section-offer__div__price {
+          font-family: $rubik-font;
+          font-size: .8rem;
+          color: #172432;
+        }
+
+        .section-offer__div__price strong {
+          font-family: $rubik-font;
+          color: #FF7757;
+          height: 38px;
+          font-size: 1.8rem;
+          padding-left: 5px;
+        }
+
+        .section-offer__btn {
+          padding: 16px 24px;
+          width: 127px;
+          height: 56px;
+          background: #FF7654;
+          border-radius: 12px;
+          border: none;
+          color: white;
+          font-family: $rubik-font;
+          font-size: 1rem;
+        }
       }
-
-      .section-offer__div__para {
-        font-family: $rubik-font;
-        font-size: .8rem;
-        color: #172432;
-        line-height: 20px;
-        height: 248px;
-      }
-
-      .section-offer__div__price {
-        font-family: $rubik-font;
-        font-size: .8rem;
-        color: #172432;
-      }
-
-      .section-offer__div__price strong {
-        font-family: $rubik-font;
-        color: #FF7757;
-        height: 38px;
-        font-size: 1.8rem;
-        padding-left: 5px;
-      }
-
-      .section-offer__btn {
-        padding: 16px 24px;
-        width: 127px;
-        height: 56px;
-        background: #FF7654;
-        border-radius: 12px;
-        border: none;
-        color: white;
-        font-family: $rubik-font;
-        font-size: 1rem;
-      }
-    }
-
-    .section__article__para {
-      font-family: $rubik-font;
-      font-size: .8rem;
-      line-height: 38px;
-      color: #172432;
-
-    }
-
-    .section__article p:last-of-type {
-      font-family: $rubik-font;
-      font-size: 1.1rem;
-      color: #FF7757;
-      padding-top: 10px;
 
     }
 
-    .section__article p:last-of-type img {
 
-      padding-left: 15px;
+    .section__italy {
+      width: 472px;
+      height: 602px;
     }
+
+    .section__blog_desc {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 32px;
+
+      width: 1376px;
+      height: 802px;
+
+      .section__article {
+
+        .section__article__para {
+          font-family: $rubik-font;
+          font-size: .8rem;
+          line-height: 38px;
+          color: #172432;
+
+        }
+
+        .section__article p:last-of-type {
+          font-family: $rubik-font;
+          font-size: 1.1rem;
+          color: #FF7757;
+          padding-top: 10px;
+
+        }
+
+        .section__article p:last-of-type img {
+
+          padding-left: 15px;
+        }
+
+      }
+    }
+
+
+
+
   }
 
   .cities {
