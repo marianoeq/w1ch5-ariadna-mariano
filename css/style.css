@@ -142,24 +142,25 @@ body {
   font-family: "Playfair Display", serif;
   font-size: 2.25rem;
 }
-.main__form .section-planners {
+
+.section-planners {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding-left: 16px;
 }
-.main__form .section-planners__title {
+.section-planners__title {
   font-size: 2.5rem;
   font-family: "Playfair Display", serif;
   border-bottom: 3px solid rgb(255, 119, 87);
 }
-.main__form .section-planners__explain {
+.section-planners__explain {
   color: rgb(118, 126, 134);
   font-family: "Rubik", sans-serif;
   font-size: 1.1 rem;
 }
-.main__form .section-planners__view {
+.section-planners__view {
   color: white;
   background-color: rgb(255, 119, 87);
   width: 186px;
@@ -168,61 +169,63 @@ body {
   font-size: 1.1rem;
   border: transparent;
 }
-.main__form .section-experiences {
+
+.section-experiences {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 16px;
 }
-.main__form .section-experiences--contained {
+.section-experiences--contained {
   background-color: #f5f6f7;
   border-radius: 12px;
   padding: 30px 20px;
   gap: 20px;
 }
-.main__form .section-experiences__title {
+.section-experiences__title {
   color: black;
   font-family: "Playfair Display", serif;
   font-size: 3rem;
   border-bottom: 3px solid rgb(255, 119, 87);
   margin-bottom: 10px;
 }
-.main__form .section-experiences__explain {
+.section-experiences__explain {
   color: rgb(118, 126, 134);
   font-family: "Rubik", sans-serif;
   font-size: 1.1rem;
   font-weight: normal;
 }
-.main__form .section-experiences__photo {
+.section-experiences__photo {
   border-radius: 100px;
   padding-top: 20px;
   align-self: flex-start;
   position: relative;
 }
-.main__form .section-experiences__text {
+.section-experiences__text {
   color: rgb(118, 126, 134);
   font-size: 1.1rem;
   font-family: "Rubik", sans-serif;
   font-size: normal;
 }
-.main__form .section-experiences__name {
+.section-experiences__name {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
   color: rgb(118, 126, 134);
   margin-bottom: 5px;
   font-weight: normal;
 }
-.main__form .section-experiences__job {
+.section-experiences__job {
   font-family: "Rubik", sans-serif;
   font-size: 1.1rem;
   color: rgb(118, 126, 134);
   padding-top: 5px;
 }
-.main__form .section-experiences__arrows {
+.section-experiences__arrows {
   margin: 20px;
 }
-.main__form .section-newsletter {
+
+.section-newsletter {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -230,7 +233,7 @@ body {
   padding: 40px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
 }
-.main__form .section-newsletter--contained {
+.section-newsletter--contained {
   border: 0.75px solid rgb(118, 126, 134);
   border-radius: 12px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
@@ -238,27 +241,27 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main__form .section-newsletter__title1 {
+.section-newsletter__title1 {
   font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   color: rgb(118, 126, 134);
   padding-top: 10px;
   margin-bottom: 0;
 }
-.main__form .section-newsletter__title2 {
+.section-newsletter__title2 {
   font-family: "Playfair Display", serif;
   font-size: 2.5rem;
   color: rgb(118, 126, 134);
   padding-bottom: 50px;
   margin-top: 0;
 }
-.main__form .section-newsletter__email {
+.section-newsletter__email {
   color: rgb(118, 126, 134);
   font-size: 1.25rem;
   padding-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
-.main__form .section-newsletter__text {
+.section-newsletter__text {
   color: rgb(255, 119, 87);
   background-color: rgb(255, 232, 212);
   border-radius: 12px;
@@ -266,13 +269,13 @@ body {
   height: 72px;
   border: transparent;
 }
-.main__form .section-newsletter__text::placeholder {
+.section-newsletter__text::placeholder {
   color: rgb(255, 119, 87);
   text-align: center;
   font-size: 1.25rem;
   font-weight: 400;
 }
-.main__form .section-newsletter__subscribe {
+.section-newsletter__subscribe {
   background-color: rgb(255, 119, 87);
   color: white;
   height: 73px;
@@ -292,8 +295,7 @@ footer {
   align-items: flex-start;
   padding: 0 16px;
 }
-
-li {
+footer li {
   list-style: none;
   margin: 8px 0;
   font-weight: normal;

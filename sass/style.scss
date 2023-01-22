@@ -85,171 +85,172 @@ body {
     font-family: $playFair-font;
     font-size: 2.25rem;
   }
+}
 
-  .section-planners {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 16px;
+.section-planners {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 16px;
 
-    &__title {
-      font-size: 2.5rem;
-      font-family: $playFair-font;
-      border-bottom: 3px solid rgb(255, 119, 87);
-    }
-
-    &__explain {
-      color: rgb(118, 126, 134);
-      font-family: $rubik-font;
-      font-size: 1.1 rem;
-    }
-
-    &__view {
-      color: white;
-      background-color: rgb(255, 119, 87);
-      width: 186px;
-      height: 61px;
-      border-radius: 12px;
-      font-size: 1.1rem;
-      border: transparent;
-    }
+  &__title {
+    font-size: 2.5rem;
+    font-family: $playFair-font;
+    border-bottom: 3px solid rgb(255, 119, 87);
   }
 
-  .section-experiences {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 16px;
-
-    &--contained {
-      background-color: #f5f6f7;
-      border-radius: 12px;
-      padding: 30px 20px;
-      gap: 20px;
-    }
-
-    &__title {
-      color: black;
-      font-family: $playFair-font;
-      font-size: 3rem;
-      border-bottom: 3px solid rgb(255, 119, 87);
-      margin-bottom: 10px;
-    }
-
-    &__explain {
-      color: rgb(118, 126, 134);
-      font-family: $rubik-font;
-      font-size: 1.1rem;
-      font-weight: normal;
-    }
-
-    &__photo {
-      border-radius: 100px;
-      padding-top: 20px;
-      align-self: flex-start;
-      position: relative;
-    }
-
-    &__text {
-      color: rgb(118, 126, 134);
-      font-size: 1.1rem;
-      font-family: $rubik-font;
-      font-size: normal;
-    }
-
-    &__name {
-      font-family: $playFair-font;
-      font-size: 1.5rem;
-      color: rgb(118, 126, 134);
-      margin-bottom: 5px;
-      font-weight: normal;
-    }
-
-    &__job {
-      font-family: $rubik-font;
-      font-size: 1.1rem;
-      color: rgb(118, 126, 134);
-      padding-top: 5px;
-    }
-
-    &__arrows {
-      margin: 20px;
-    }
+  &__explain {
+    color: rgb(118, 126, 134);
+    font-family: $rubik-font;
+    font-size: 1.1 rem;
   }
 
-  .section-newsletter {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
+  &__view {
+    color: white;
+    background-color: rgb(255, 119, 87);
+    width: 186px;
+    height: 61px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    border: transparent;
+  }
+}
+
+.section-experiences {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 16px;
+
+  &--contained {
+    background-color: #f5f6f7;
+    border-radius: 12px;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  &__title {
+    color: black;
+    font-family: $playFair-font;
+    font-size: 3rem;
+    border-bottom: 3px solid rgb(255, 119, 87);
+    margin-bottom: 10px;
+  }
+
+  &__explain {
+    color: rgb(118, 126, 134);
+    font-family: $rubik-font;
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+
+  &__photo {
+    border-radius: 100px;
+    padding-top: 20px;
+    align-self: flex-start;
+    position: relative;
+  }
+
+  &__text {
+    color: rgb(118, 126, 134);
+    font-size: 1.1rem;
+    font-family: $rubik-font;
+    font-size: normal;
+  }
+
+  &__name {
+    font-family: $playFair-font;
+    font-size: 1.5rem;
+    color: rgb(118, 126, 134);
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+
+  &__job {
+    font-family: $rubik-font;
+    font-size: 1.1rem;
+    color: rgb(118, 126, 134);
+    padding-top: 5px;
+  }
+
+  &__arrows {
+    margin: 20px;
+  }
+}
+
+.section-newsletter {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+
+  &--contained {
+    border: 0.75px solid rgb(118, 126, 134);
+    border-radius: 12px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
-
-    &--contained {
-      border: 0.75px solid rgb(118, 126, 134);
-      border-radius: 12px;
-      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
-      padding: 40px 20px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    &__title1 {
-      font-family: $playFair-font;
-      font-size: 2.5rem;
-      color: rgb(118, 126, 134);
-      padding-top: 10px;
-      margin-bottom: 0;
-    }
-
-    &__title2 {
-      font-family: $playFair-font;
-      font-size: 2.5rem;
-      color: rgb(118, 126, 134);
-      padding-bottom: 50px;
-      margin-top: 0;
-    }
-
-    &__email {
-      color: rgb(118, 126, 134);
-      font-size: 1.25rem;
-      padding-bottom: 15px;
-      font-family: $rubik-font;
-    }
-
-    &__text {
-      color: rgb(255, 119, 87);
-      background-color: rgb(255, 232, 212);
-      border-radius: 12px;
-      width: 248px;
-      height: 72px;
-      border: transparent;
-    }
-
-    &__text::placeholder {
-      color: rgb(255, 119, 87);
-      text-align: center;
-      font-size: 1.25rem;
-      font-weight: 400;
-    }
-
-    &__subscribe {
-      background-color: rgb(255, 119, 87);
-      color: white;
-      height: 73px;
-      width: 248px;
-      border-radius: 12px;
-      margin-top: 20px;
-      border: transparent;
-      font-size: 1.25rem;
-    }
-
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
   }
 
+  &__title1 {
+    font-family: $playFair-font;
+    font-size: 2.5rem;
+    color: rgb(118, 126, 134);
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+
+  &__title2 {
+    font-family: $playFair-font;
+    font-size: 2.5rem;
+    color: rgb(118, 126, 134);
+    padding-bottom: 50px;
+    margin-top: 0;
+  }
+
+  &__email {
+    color: rgb(118, 126, 134);
+    font-size: 1.25rem;
+    padding-bottom: 15px;
+    font-family: $rubik-font;
+  }
+
+  &__text {
+    color: rgb(255, 119, 87);
+    background-color: rgb(255, 232, 212);
+    border-radius: 12px;
+    width: 248px;
+    height: 72px;
+    border: transparent;
+  }
+
+  &__text::placeholder {
+    color: rgb(255, 119, 87);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  &__subscribe {
+    background-color: rgb(255, 119, 87);
+    color: white;
+    height: 73px;
+    width: 248px;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: transparent;
+    font-size: 1.25rem;
+  }
 
 }
+
+
+
 
 footer {
   background-color: rgb(31, 58, 86);
@@ -259,14 +260,15 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   padding: 0 16px;
+
+  li {
+    list-style: none;
+    margin: 8px 0;
+    font-weight: normal;
+    font-size: 1.1rem;
+  }
 }
 
-li {
-  list-style: none;
-  margin: 8px 0;
-  font-weight: normal;
-  font-size: 1.1rem;
-}
 
 
 .footer1 {
