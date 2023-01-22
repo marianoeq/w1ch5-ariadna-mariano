@@ -1,3 +1,82 @@
+$playFair-font: "Playfair Display", serif;
+$rubik-font: "Rubik", sans-serif;
+$Mulish-font: "Mulish", sans-serif;
+
 .section {
-  border: 1px solid red;
+  padding: 80px 16px;
+  position: relative;
+
+  .section__title {
+    font-family: $playFair-font ;
+    font-size: 2.25rem;
+    line-height: 53px;
+    color: #172432;
+  }
+
+  .section__div__line {
+    border-bottom: 2px solid #FF7757;
+    width: 231px;
+  }
+
+  .section__para {
+    font-family: $rubik-font;
+    font-size: 1rem;
+    line-height: 21px;
+    color: #767E86;
+    height: 80px;
+  }
+
+  .section__img__arrows {
+    position: relative;
+    top: 80px;
+    left: 45px;
+  }
+
+  .section-offer__div {
+    width: 288px;
+    padding: 20px;
+    background: #FFF8F1;
+    border-radius: 0 0 26px 26px;
+
+    .section-offer__para {
+      font-family: $Mulish-font;
+      color: #767E86;
+      font-size: 1.7rem;
+      margin: 5px;
+    }
+
+    .section-offer__div__para {
+      font-family: $rubik-font;
+      font-size: .8rem;
+      color: #172432;
+      line-height: 20px;
+      height: 248px;
+    }
+
+    .section-offer__div__price {
+      font-family: $rubik-font;
+      font-size: .8rem;
+      color: #172432;
+    }
+
+    .section-offer__div__price strong {
+      font-family: $rubik-font;
+      color: #FF7757;
+      height: 38px;
+      font-size: 1.8rem;
+      padding-left: 5px;
+    }
+
+    .section-offer__btn {
+      padding: 16px 24px;
+      width: 127px;
+      height: 56px;
+      background: #FF7654;
+      border-radius: 12px;
+      border: none;
+      color: white;
+      font-family: $rubik-font;
+      font-size: 1rem;
+    }
+  }
 }
