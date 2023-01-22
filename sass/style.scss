@@ -172,9 +172,63 @@ body {
       padding-right: 16px;
     }
   }
+  &__barcelona {
+    margin-top: 60px;
+
+    &--divided {
+      display: flex;
+      justify-content: space-between;
+      font-family: $rubik-font;
+      font-size: 1.1rem;
+      padding-top: 20px;
+      padding-right: 16px;
+      font-weight: 400;
+    }
+    &__barcelonatour {
+      font-family: $playFair-font;
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    &--dividedrating {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      font-family: $rubik-font;
+      padding-right: 16px;
+    }
+  }
+  &__budapest {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    &--divided {
+      display: flex;
+      justify-content: space-between;
+      font-family: $rubik-font;
+      font-size: 1.1rem;
+      padding-top: 20px;
+      padding-right: 16px;
+      font-weight: 400;
+    }
+    &__budapesttour {
+      font-family: $playFair-font;
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    &--dividedrating {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      font-family: $rubik-font;
+      padding-right: 16px;
+    }
+  }
 }
 
-/*.section-experiences {
+.section-experiences {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -380,4 +434,3 @@ footer {
     padding-bottom: 50px;
   }
 }
-*/
