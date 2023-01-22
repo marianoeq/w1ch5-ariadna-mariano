@@ -418,7 +418,7 @@ body {
 }
 
 footer {
-  background-color: rgb(31, 58, 86);
+  background-color: rgb(23, 36, 50);
   color: white;
   font-family: Rubik, sans-serif;
   display: flex;
@@ -488,6 +488,15 @@ footer li {
   .section-planners__view {
     align-self: center;
   }
+  .section-planners__title {
+    font-size: 4rem;
+  }
+  .section-planners__explain {
+    font-size: 1.5rem;
+  }
+  .section-planners__view {
+    font-size: 1.1rem;
+  }
   .section-experiences__experiences {
     display: flex;
     flex-direction: row;
@@ -511,9 +520,11 @@ footer li {
   }
   .section-experiences__title {
     align-self: flex-start;
+    font-size: 4rem;
   }
   .section-experiences__explain {
     align-self: flex-start;
+    font-size: 1.5rem;
   }
   .section-experiences__arrows {
     align-self: flex-end;
@@ -537,21 +548,24 @@ footer li {
   .section-newsletter--contained .section-newsletter__title1 {
     display: inline-block;
     margin-top: 10px;
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .section-newsletter--contained .section-newsletter__title2 {
     display: inline-block;
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .section-newsletter--contained .section-newsletter__email {
     display: block;
     margin-top: 20px;
+    font-style: 1.1rem;
   }
   .section-newsletter--contained .section-newsletter__text {
     margin-top: 0;
+    font-size: 1.1rem;
   }
   .section-newsletter--contained .section-newsletter__subscribe {
     margin-top: 55px;
+    font-size: 1.1rem;
   }
   .footers {
     display: flex;
@@ -564,8 +578,23 @@ footer li {
   .footers .footer1 {
     padding-top: 30px;
   }
+  .footers .footer2__title {
+    font-size: 1.5rem;
+  }
+  .footers .footer3__title {
+    font-size: 1.5rem;
+  }
+  .footers .footer4__title {
+    font-size: 1.5rem;
+  }
   .footers .footer5 {
     padding-top: 20px;
+  }
+  .footers .footer5__title {
+    font-size: 1.5rem;
+  }
+  .footers li {
+    font-size: 1.1rem;
   }
 }
 

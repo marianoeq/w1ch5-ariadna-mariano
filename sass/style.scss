@@ -367,7 +367,7 @@ body {
 }
 
 footer {
-  background-color: rgb(31, 58, 86);
+  background-color: rgb(23, 36, 50);
   color: white;
   font-family: Rubik, sans-serif;
   display: flex;
@@ -452,6 +452,15 @@ footer {
     &__view {
       align-self: center;
     }
+    &__title {
+      font-size: 4rem;
+    }
+    &__explain {
+      font-size: 1.5rem;
+    }
+    &__view {
+      font-size: 1.1rem;
+    }
   }
   .section-experiences {
     &__experiences {
@@ -478,9 +487,11 @@ footer {
 
     &__title {
       align-self: flex-start;
+      font-size: 4rem;
     }
     &__explain {
       align-self: flex-start;
+      font-size: 1.5rem;
     }
     &__arrows {
       align-self: flex-end;
@@ -491,6 +502,7 @@ footer {
   .section-newsletter--contained {
     width: 90%;
     margin-top: 50px;
+
     .section-newsletter--contained-desktop {
       display: flex;
       flex-direction: row;
@@ -505,21 +517,24 @@ footer {
     .section-newsletter__title1 {
       display: inline-block;
       margin-top: 10px;
-      font-size: 3rem;
+      font-size: 4rem;
     }
     .section-newsletter__title2 {
       display: inline-block;
-      font-size: 3rem;
+      font-size: 4rem;
     }
     .section-newsletter__email {
       display: block;
       margin-top: 20px;
+      font-style: 1.1rem;
     }
     .section-newsletter__text {
       margin-top: 0;
+      font-size: 1.1rem;
     }
     .section-newsletter__subscribe {
       margin-top: 55px;
+      font-size: 1.1rem;
     }
   }
   .footers {
@@ -532,8 +547,23 @@ footer {
     .footer1 {
       padding-top: 30px;
     }
+    .footer2__title {
+      font-size: 1.5rem;
+    }
+    .footer3__title {
+      font-size: 1.5rem;
+    }
+    .footer4__title {
+      font-size: 1.5rem;
+    }
     .footer5 {
       padding-top: 20px;
+      &__title {
+        font-size: 1.5rem;
+      }
+    }
+    li {
+      font-size: 1.1rem;
     }
   }
 }
