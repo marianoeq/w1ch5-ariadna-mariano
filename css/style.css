@@ -172,6 +172,9 @@ body {
     display: flex;
     flex-direction: row;
   }
+  .section-experiences--contained-hidden-john {
+    display: inline-block;
+  }
   .section-experiences__title {
     align-self: flex-start;
   }
@@ -375,6 +378,9 @@ body {
   border-radius: 12px;
   padding: 30px 20px;
   gap: 20px;
+}
+.section-experiences--contained-hidden-john {
+  display: none;
 }
 .section-experiences__title {
   color: black;

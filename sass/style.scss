@@ -101,6 +101,9 @@ body {
   .section-experiences {
     display: flex;
     flex-direction: row;
+    &--contained-hidden-john {
+      display: inline-block;
+    }
     &__title {
       align-self: flex-start;
     }
@@ -111,6 +114,7 @@ body {
       align-self: flex-end;
     }
   }
+
   .section-newsletter--contained {
     width: 90%;
     .section-newsletter--contained-desktop {
@@ -315,7 +319,9 @@ body {
     padding: 30px 20px;
     gap: 20px;
   }
-
+  &--contained-hidden-john {
+    display: none;
+  }
   &__title {
     color: black;
     font-family: $playFair-font;
