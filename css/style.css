@@ -165,15 +165,26 @@ body {
     flex-direction: row;
     gap: 5rem;
   }
+  .section-planners__view {
+    align-self: center;
+    margin-top: 2000px;
+  }
   .section-experiences {
     display: flex;
     flex-direction: row;
   }
+  .section-experiences__title {
+    align-self: flex-start;
+  }
+  .section-experiences__explain {
+    align-self: flex-start;
+  }
+  .section-experiences__arrows {
+    align-self: flex-end;
+  }
   .section-newsletter--contained {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
   }
   .footers {
     display: flex;
@@ -422,6 +433,7 @@ body {
   width: 248px;
   height: 72px;
   border: transparent;
+  margin-top: 30px;
 }
 .section-newsletter__text::placeholder {
   color: rgb(255, 119, 87);

@@ -93,17 +93,30 @@ body {
     flex-direction: row;
     gap: 5rem;
   }
+  .section-planners {
+    &__view {
+      align-self: center;
+      margin-top: 2000px;
+    }
+  }
 
   .section-experiences {
     display: flex;
     flex-direction: row;
+    &__title {
+      align-self: flex-start;
+    }
+    &__explain {
+      align-self: flex-start;
+    }
+    &__arrows {
+      align-self: flex-end;
+    }
   }
   .section-newsletter {
     &--contained {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
     }
   }
 
@@ -375,6 +388,7 @@ body {
     width: 248px;
     height: 72px;
     border: transparent;
+    margin-top: 30px;
   }
 
   &__text::placeholder {
