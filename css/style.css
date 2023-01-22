@@ -159,6 +159,35 @@ body {
   border: none;
 }
 
+@media (min-width: 400px) {
+  .cities {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+  .section-experiences {
+    display: flex;
+    flex-direction: row;
+  }
+  .section-newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  .section-newsletter--contained {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+}
 .section-planners {
   background-color: white;
   display: flex;
