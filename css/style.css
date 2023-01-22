@@ -1,3 +1,72 @@
+.section {
+  padding: 80px 16px;
+  position: relative;
+}
+.section .section__title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.25rem;
+  line-height: 53px;
+  color: #172432;
+}
+.section .section__div__line {
+  border-bottom: 2px solid #FF7757;
+  width: 231px;
+}
+.section .section__para {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+  line-height: 21px;
+  color: #767E86;
+  height: 80px;
+}
+.section .section__img__arrows {
+  position: relative;
+  top: 80px;
+  left: 45px;
+}
+.section .section-offer__div {
+  width: 288px;
+  padding: 20px;
+  background: #FFF8F1;
+  border-radius: 0 0 26px 26px;
+}
+.section .section-offer__div .section-offer__para {
+  font-family: "Mulish", sans-serif;
+  color: #767E86;
+  font-size: 1.7rem;
+  margin: 5px;
+}
+.section .section-offer__div .section-offer__div__para {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.8rem;
+  color: #172432;
+  line-height: 20px;
+  height: 248px;
+}
+.section .section-offer__div .section-offer__div__price {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.8rem;
+  color: #172432;
+}
+.section .section-offer__div .section-offer__div__price strong {
+  font-family: "Rubik", sans-serif;
+  color: #FF7757;
+  height: 38px;
+  font-size: 1.8rem;
+  padding-left: 5px;
+}
+.section .section-offer__div .section-offer__btn {
+  padding: 16px 24px;
+  width: 127px;
+  height: 56px;
+  background: #FF7654;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,7 +78,7 @@ body {
   background-image: url(../images/nico-schuth-sBUwDyjPvLM-unsplash.jpg);
   background-repeat: no-repeat;
   background-position-x: 3%;
-  background-position-y: -29%;
+  background-position-y: -12%;
   background-size: 1254px 1679px;
 }
 
@@ -213,57 +282,65 @@ body {
   border: transparent;
   font-size: 1.25rem;
 }
-.main__form footer {
-  background-color: rgb(23, 36, 50);
+
+footer {
+  background-color: rgb(31, 58, 86);
   color: white;
   font-family: Rubik, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 0 16px;
 }
-.main__form footer li {
+
+li {
   list-style: none;
   margin: 8px 0;
   font-weight: normal;
   font-size: 1.1rem;
 }
-.main__form .footer1 {
+
+.footer1 {
   font-size: 2.5rem;
   padding-top: 50px;
 }
-.main__form .footer1__copyright {
+.footer1__copyright {
   font-size: 0.8rem;
   text-decoration: none;
   font-style: normal;
 }
-.main__form .footer2__title {
+
+.footer2__title {
   font-size: 1.5rem;
   padding-top: 20px;
   font-weight: 500;
 }
-.main__form .footer2__list {
+.footer2__list {
   padding-inline-start: 0;
 }
-.main__form .footer3__title {
+
+.footer3__title {
   font-size: 1.5rem;
   padding-top: 20px;
   font-weight: 500;
 }
-.main__form .footer3__list {
+.footer3__list {
   padding-inline-start: 0;
 }
-.main__form .footer4__title {
+
+.footer4__title {
   font-size: 1.5rem;
   padding-top: 20px;
   font-weight: 500;
 }
-.main__form .footer4__list {
+.footer4__list {
   padding-inline-start: 0;
 }
-.main__form .footer5__title {
+
+.footer5__title {
   font-size: 1.5rem;
 }
-.main__form .footer5__icons {
+.footer5__icons {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
