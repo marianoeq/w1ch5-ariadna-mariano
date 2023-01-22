@@ -96,10 +96,8 @@ body {
   .section-planners {
     &__view {
       align-self: center;
-      margin-top: 2000px;
     }
   }
-
   .section-experiences {
     display: flex;
     flex-direction: row;
@@ -113,13 +111,39 @@ body {
       align-self: flex-end;
     }
   }
-  .section-newsletter {
-    &--contained {
+  .section-newsletter--contained {
+    width: 90%;
+    .section-newsletter--contained-desktop {
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
+      align-self: stretch;
+      gap: 5rem;
+      height: 150px;
+      align-content: center;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .section-newsletter__title1 {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 3rem;
+    }
+    .section-newsletter__title2 {
+      display: inline-block;
+      font-size: 3rem;
+    }
+    .section-newsletter__email {
+      display: block;
+      margin-top: 20px;
+    }
+    .section-newsletter__text {
+      margin-top: 0;
+    }
+    .section-newsletter__subscribe {
+      margin-top: 55px;
     }
   }
-
   .footers {
     display: flex;
     flex-direction: row;
