@@ -87,83 +87,6 @@ body {
   }
 }
 
-@media (min-width: 400px) {
-  .cities {
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-  }
-  .section-planners {
-    &__view {
-      align-self: center;
-    }
-  }
-  .section-experiences {
-    display: flex;
-    flex-direction: row;
-    &--contained-hidden-john {
-      display: inline-block;
-    }
-    &__title {
-      align-self: flex-start;
-    }
-    &__explain {
-      align-self: flex-start;
-    }
-    &__arrows {
-      align-self: flex-end;
-    }
-  }
-
-  .section-newsletter--contained {
-    width: 90%;
-    .section-newsletter--contained-desktop {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-self: stretch;
-      gap: 5rem;
-      height: 150px;
-      align-content: center;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    .section-newsletter__title1 {
-      display: inline-block;
-      margin-top: 10px;
-      font-size: 3rem;
-    }
-    .section-newsletter__title2 {
-      display: inline-block;
-      font-size: 3rem;
-    }
-    .section-newsletter__email {
-      display: block;
-      margin-top: 20px;
-    }
-    .section-newsletter__text {
-      margin-top: 0;
-    }
-    .section-newsletter__subscribe {
-      margin-top: 55px;
-    }
-  }
-  .footers {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: stretch;
-    gap: 5rem;
-
-    .footer1 {
-      padding-top: 30px;
-    }
-    .footer5 {
-      padding-top: 20px;
-    }
-  }
-}
-
 .section-planners {
   background-color: white;
   display: flex;
@@ -319,7 +242,7 @@ body {
     padding: 30px 20px;
     gap: 20px;
   }
-  &--contained-hidden-john {
+  &__hidden-john {
     display: none;
   }
   &__title {
@@ -513,5 +436,92 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 400px) {
+  .cities {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+  .section-planners {
+    &__view {
+      align-self: center;
+    }
+  }
+  .section-experiences {
+    &__experiences {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 5rem;
+      margin-top: 20px;
+    }
+    &__hidden-john {
+      display: inline-block;
+      background-color: #f5f6f7;
+      border-radius: 12px;
+      padding: 30px 20px;
+      gap: 20px;
+    }
+
+    &__title {
+      align-self: flex-start;
+    }
+    &__explain {
+      align-self: flex-start;
+    }
+    &__arrows {
+      align-self: flex-end;
+    }
+  }
+
+  .section-newsletter--contained {
+    width: 90%;
+    .section-newsletter--contained-desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-self: stretch;
+      gap: 5rem;
+      height: 150px;
+      align-content: center;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .section-newsletter__title1 {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 3rem;
+    }
+    .section-newsletter__title2 {
+      display: inline-block;
+      font-size: 3rem;
+    }
+    .section-newsletter__email {
+      display: block;
+      margin-top: 20px;
+    }
+    .section-newsletter__text {
+      margin-top: 0;
+    }
+    .section-newsletter__subscribe {
+      margin-top: 55px;
+    }
+  }
+  .footers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+    gap: 5rem;
+
+    .footer1 {
+      padding-top: 30px;
+    }
+    .footer5 {
+      padding-top: 20px;
+    }
   }
 }
