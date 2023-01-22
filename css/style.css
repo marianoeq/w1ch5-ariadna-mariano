@@ -484,6 +484,10 @@ footer li {
     display: flex;
     flex-direction: row;
     gap: 5rem;
+    width: 100vh;
+  }
+  .section-planners__rome {
+    margin-top: 200px;
   }
   .section-planners__view {
     align-self: center;
