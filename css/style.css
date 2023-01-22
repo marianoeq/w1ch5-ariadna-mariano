@@ -487,10 +487,47 @@ footer li {
     width: 100vh;
   }
   .section-planners__rome {
-    margin-top: 200px;
+    margin-top: 60px;
+  }
+  .section-planners__rome--divided {
+    display: none;
+  }
+  .section-planners__rome__rometour {
+    display: none;
+  }
+  .section-planners__rome--dividedrating {
+    display: none;
+  }
+  .section-planners__paris {
+    margin-top: 20px;
+  }
+  .section-planners__barcelona {
+    margin-top: 60px;
+  }
+  .section-planners__barcelona--divided {
+    display: none;
+  }
+  .section-planners__barcelona__barcelonatour {
+    display: none;
+  }
+  .section-planners__barcelona--dividedrating {
+    display: none;
+  }
+  .section-planners__budapest {
+    margin-top: 60px;
+  }
+  .section-planners__budapest--divided {
+    display: none;
+  }
+  .section-planners__budapest__budapesttour {
+    display: none;
+  }
+  .section-planners__budapest--dividedrating {
+    display: none;
   }
   .section-planners__view {
     align-self: center;
+    margin-bottom: 50px;
   }
   .section-planners__title {
     font-size: 4rem;
@@ -506,7 +543,7 @@ footer li {
     flex-direction: row;
     justify-content: space-around;
     gap: 3rem;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .section-experiences__hidden-john {
     display: inline-block;

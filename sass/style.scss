@@ -451,10 +451,47 @@ footer {
   }
   .section-planners {
     &__rome {
-      margin-top: 200px;
+      margin-top: 60px;
+      &--divided {
+        display: none;
+      }
+      &__rometour {
+        display: none;
+      }
+      &--dividedrating {
+        display: none;
+      }
+    }
+    &__paris {
+      margin-top: 20px;
+    }
+    &__barcelona {
+      margin-top: 60px;
+      &--divided {
+        display: none;
+      }
+      &__barcelonatour {
+        display: none;
+      }
+      &--dividedrating {
+        display: none;
+      }
+    }
+    &__budapest {
+      margin-top: 60px;
+      &--divided {
+        display: none;
+      }
+      &__budapesttour {
+        display: none;
+      }
+      &--dividedrating {
+        display: none;
+      }
     }
     &__view {
       align-self: center;
+      margin-bottom: 50px;
     }
     &__title {
       font-size: 4rem;
@@ -472,7 +509,7 @@ footer {
       flex-direction: row;
       justify-content: space-around;
       gap: 3rem;
-      margin-top: 20px;
+      margin-top: 50px;
     }
     &__hidden-john {
       display: inline-block;
