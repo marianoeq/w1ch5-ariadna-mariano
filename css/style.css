@@ -505,6 +505,9 @@ footer li {
     background-position: 0 -1072px;
     width: 1440px;
   }
+  .header__title {
+    font-size: 4.5rem;
+  }
   .header .header__div__img__container {
     display: none;
   }
@@ -537,7 +540,7 @@ footer li {
     border: none;
   }
   .header .header-desktop__div .header-desktop__div__btn button:last-child {
-    background: #FF7757;
+    background: #ff7757;
     padding: 20px 32px;
     border-radius: 12px;
     width: 110px;
@@ -566,14 +569,14 @@ footer li {
     color: #172432;
   }
   .section .section__div__line {
-    border-bottom: 2px solid #FF7757;
+    border-bottom: 2px solid #ff7757;
     width: 231px;
   }
   .section .section__para {
     font-family: "Rubik", sans-serif;
     font-size: 1rem;
     line-height: 21px;
-    color: #767E86;
+    color: #767e86;
     height: 80px;
   }
   .section .section__div__img__destination {
@@ -619,13 +622,13 @@ footer li {
   .section .section-offer__div {
     width: 288px;
     padding: 20px;
-    background: #FFF8F1;
+    background: #fff8f1;
     border-radius: 0 0 26px 26px;
   }
   .section .section-offer__div div:nth-child(-n+4) {
     width: 437px;
-    height: 343PX;
-    background: #FFF8F1;
+    height: 343px;
+    background: #fff8f1;
     border-radius: 0px 0px 26px 26px;
     padding: 40px 24px;
     display: flex;
@@ -634,7 +637,7 @@ footer li {
   }
   .section .section-offer__div div:nth-child(-n+4) .section-offer__para {
     font-family: "Mulish", sans-serif;
-    color: #767E86;
+    color: #767e86;
     font-size: 1.7rem;
     margin: 5px;
   }
@@ -652,7 +655,7 @@ footer li {
   }
   .section .section-offer__div div:nth-child(-n+4) .section-offer__div__price strong {
     font-family: "Rubik", sans-serif;
-    color: #FF7757;
+    color: #ff7757;
     height: 38px;
     font-size: 1.8rem;
     padding-left: 5px;
@@ -661,7 +664,7 @@ footer li {
     padding: 16px 24px;
     width: 127px;
     height: 56px;
-    background: #FF7654;
+    background: #ff7654;
     border-radius: 12px;
     border: none;
     color: white;
@@ -690,7 +693,7 @@ footer li {
   .section .section__blog_desc .section__article .section__article p:last-of-type {
     font-family: "Rubik", sans-serif;
     font-size: 1.1rem;
-    color: #FF7757;
+    color: #ff7757;
     padding-top: 10px;
   }
   .section .section__blog_desc .section__article .section__article p:last-of-type img {
