@@ -26,7 +26,34 @@ $Mulish-font: "Mulish", sans-serif;
     height: 80px;
   }
 
-  .section__img__arrows {
+  .section__container__arrows {
+    display: none;
+  }
+
+  .section__div__img__destination {
+    img:nth-child(n+2) {
+      display: none;
+    }
+  }
+
+  .section__div__img__offer__container {
+    div:nth-child(n+2) {
+      display: none;
+    }
+
+    .section__div__img__offer>div {
+      display: block;
+    }
+
+  }
+
+  .section-offer__div {
+    div:nth-child(n+2) {
+      display: none;
+    }
+  }
+
+  .section__img__arrows1 {
     position: relative;
     top: 80px;
     left: 45px;
