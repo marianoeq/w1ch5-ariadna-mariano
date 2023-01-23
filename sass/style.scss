@@ -542,11 +542,15 @@ footer {
       font-size: 2.25rem;
       line-height: 53px;
       color: #172432;
+      margin-top: 200px;
+      font-weight: 400px;
+      align-self: flex-end;
     }
 
     .section__div__line {
       border-bottom: 2px solid #ff7757;
       width: 231px;
+      align-self: flex-end;
     }
 
     .section__para {
@@ -555,6 +559,7 @@ footer {
       line-height: 21px;
       color: #767e86;
       height: 80px;
+      align-self: flex-end;
     }
 
     .section__div__img__destination {
@@ -573,11 +578,12 @@ footer {
     .section__container__arrows {
       position: relative;
       bottom: 132px;
-      display: block;
-
+      display: flex;
       .section__img__arrows {
         float: right;
         width: 172px;
+        margin-top: 30px;
+        align-self: flex-start;
       }
     }
 
