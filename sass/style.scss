@@ -1,8 +1,10 @@
 @use "section-styles";
+@use "footer";
 
 $playFair-font: "Playfair Display", serif;
 $rubik-font: "Rubik", sans-serif;
 $Mulish-font: "Mulish", sans-serif;
+$white-color: white;
 
 * {
   box-sizing: border-box;
@@ -43,7 +45,7 @@ body {
 .header__title {
   font-family: $playFair-font;
   font-size: 2.2rem;
-  color: white;
+  color: $white-color;
   font-style: normal;
 }
 
@@ -386,86 +388,7 @@ body {
   }
 }
 
-footer {
-  background-color: rgb(23, 36, 50);
-  color: white;
-  font-family: Rubik, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 16px;
-
-  li {
-    list-style: none;
-    margin: 8px 0;
-    font-weight: normal;
-    font-size: 1.1rem;
-  }
-}
-
-.footer1 {
-  font-size: 2.5rem;
-  padding-top: 50px;
-
-  &__copyright {
-    font-size: 0.8rem;
-    text-decoration: none;
-    font-style: normal;
-  }
-}
-
-.footer2 {
-  &__title {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    font-weight: 500;
-  }
-
-  &__list {
-    padding-inline-start: 0;
-  }
-}
-
-.footer3 {
-  &__title {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    font-weight: 500;
-  }
-
-  &__list {
-    padding-inline-start: 0;
-  }
-}
-
-.footer4 {
-  &__title {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    font-weight: 500;
-  }
-
-  &__list {
-    padding-inline-start: 0;
-  }
-}
-
-.footer5 {
-  &__title {
-    font-size: 1.5rem;
-  }
-
-  &__icons {
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 50px;
-  }
-}
-
-
-
-@media (min-width:400px) {
-
+@media (min-width: 400px) {
   html,
   body {
     background-size: contain;
@@ -475,7 +398,9 @@ footer {
   }
 
   .header {
-
+    &__title {
+      font-size: 4.5rem;
+    }
     .header__div__img__container {
       display: none;
     }
@@ -492,9 +417,8 @@ footer {
         list-style: none;
         color: white;
         font-family: $rubik-font;
-        font-size: .8rem;
+        font-size: 0.8rem;
         padding-right: 2em;
-
       }
 
       .header-desktop__div__btn {
@@ -505,22 +429,20 @@ footer {
         button {
           width: 70px;
           font-family: $rubik-font;
-          font-size: .8rem;
+          font-size: 0.8rem;
           color: white;
           background: transparent;
           border: none;
-
         }
 
         button:last-child {
-          background: #FF7757;
+          background: #ff7757;
           padding: 20px 32px;
           border-radius: 12px;
           width: 110px;
         }
       }
     }
-
   }
 
   .main__form {
@@ -542,27 +464,29 @@ footer {
     top: 13em;
 
     .section__title {
-      font-family: $playFair-font ;
+      font-family: $playFair-font;
       font-size: 2.25rem;
       line-height: 53px;
       color: #172432;
-
+      margin-top: 200px;
+      font-weight: 400px;
+      align-self: flex-end;
     }
 
     .section__div__line {
-      border-bottom: 2px solid #FF7757;
+      border-bottom: 2px solid #ff7757;
       width: 231px;
+      align-self: flex-end;
     }
 
     .section__para {
       font-family: $rubik-font;
       font-size: 1rem;
       line-height: 21px;
-      color: #767E86;
+      color: #767e86;
       height: 80px;
+      align-self: flex-end;
     }
-
-
 
     .section__div__img__destination {
       display: flex;
@@ -570,7 +494,7 @@ footer {
       padding: 0px;
       gap: 32px;
 
-      img:nth-child(-n+4) {
+      img:nth-child(-n + 4) {
         display: block;
         width: 497px;
         height: 661px;
@@ -580,11 +504,12 @@ footer {
     .section__container__arrows {
       position: relative;
       bottom: 132px;
-      display: block;
-
+      display: flex;
       .section__img__arrows {
         float: right;
         width: 172px;
+        margin-top: 30px;
+        align-self: flex-start;
       }
     }
 
@@ -596,7 +521,7 @@ footer {
       width: 1376px;
       height: 629px;
 
-      div:nth-child(-n+4) {
+      div:nth-child(-n + 4) {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -605,25 +530,22 @@ footer {
         width: 437.33px;
         height: 429px;
       }
-
     }
 
     .section__img__arrows1 {
       display: none;
     }
 
-
-
     .section-offer__div {
       width: 288px;
       padding: 20px;
-      background: #FFF8F1;
+      background: #fff8f1;
       border-radius: 0 0 26px 26px;
 
-      div:nth-child(-n+4) {
+      div:nth-child(-n + 4) {
         width: 437px;
-        height: 343PX;
-        background: #FFF8F1;
+        height: 343px;
+        background: #fff8f1;
         border-radius: 0px 0px 26px 26px;
         padding: 40px 24px;
         display: flex;
@@ -632,14 +554,14 @@ footer {
 
         .section-offer__para {
           font-family: $Mulish-font;
-          color: #767E86;
+          color: #767e86;
           font-size: 1.7rem;
           margin: 5px;
         }
 
         .section-offer__div__para {
           font-family: $rubik-font;
-          font-size: .8rem;
+          font-size: 0.8rem;
           color: #172432;
           line-height: 20px;
           height: 248px;
@@ -647,13 +569,13 @@ footer {
 
         .section-offer__div__price {
           font-family: $rubik-font;
-          font-size: .8rem;
+          font-size: 0.8rem;
           color: #172432;
         }
 
         .section-offer__div__price strong {
           font-family: $rubik-font;
-          color: #FF7757;
+          color: #ff7757;
           height: 38px;
           font-size: 1.8rem;
           padding-left: 5px;
@@ -663,7 +585,7 @@ footer {
           padding: 16px 24px;
           width: 127px;
           height: 56px;
-          background: #FF7654;
+          background: #ff7654;
           border-radius: 12px;
           border: none;
           color: white;
@@ -671,9 +593,7 @@ footer {
           font-size: 1rem;
         }
       }
-
     }
-
 
     .section__italy {
       width: 472px;
@@ -691,34 +611,25 @@ footer {
       height: 802px;
 
       .section__article {
-
         .section__article__para {
           font-family: $rubik-font;
-          font-size: .8rem;
+          font-size: 0.8rem;
           line-height: 38px;
           color: #172432;
-
         }
 
         .section__article p:last-of-type {
           font-family: $rubik-font;
           font-size: 1.1rem;
-          color: #FF7757;
+          color: #ff7757;
           padding-top: 10px;
-
         }
 
         .section__article p:last-of-type img {
-
           padding-left: 15px;
         }
-
       }
     }
-
-
-
-
   }
 
   .cities {
@@ -905,19 +816,6 @@ footer {
   footer {
     height: 500px;
 
-    .footers {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-self: stretch;
-      margin-top: 150px;
-      gap: 5rem;
-      height: 150px;
-      align-content: center;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-
     .section-newsletter__title1 {
       display: inline-block;
       margin-top: 10px;
@@ -943,44 +841,6 @@ footer {
     .section-newsletter__subscribe {
       margin-top: 55px;
       font-size: 1.1rem;
-    }
-  }
-
-  .footers {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: stretch;
-    gap: 5rem;
-    padding: 20px 10px;
-
-    .footer1 {
-      padding-top: 30px;
-    }
-
-    .footer2__title {
-      font-size: 1.5rem;
-    }
-
-    .footer3__title {
-      font-size: 1.5rem;
-    }
-
-    .footer4__title {
-      font-size: 1.5rem;
-    }
-
-    .footer5 {
-      padding-top: 20px;
-
-      &__title {
-        font-size: 1.5rem;
-      }
-    }
-
-    li {
-      font-size: 1.1rem;
-
     }
   }
 }
